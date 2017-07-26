@@ -21,6 +21,7 @@ public class Main {
 
         Bouquet bouquet8 = InstancesFresh.FRESH.getInstance();
         Bouquet bouquet9 = InstancesFresh.FADE.getInstance();
+        Bouquet bouquet10 = InstancesFresh.NORMAL.getInstance();
 
 
         System.out.println(bouquet1);
