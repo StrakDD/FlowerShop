@@ -14,7 +14,7 @@ import java.util.Date;
 public enum InstancesStalk {
     LONG {
         public Bouquet getInstance() {
-            Flower flower = new Flower(Color.SINGLECOLOR, Stalk.LONG);
+            Flower flower = new Flower(Color.SINGLE_COLOR, Stalk.LONG);
             Accessory accessory = new Accessory(flower);
 
             return new Bouquet(3,accessory, new Date());
@@ -22,7 +22,7 @@ public enum InstancesStalk {
     },
     MIDDLE {
         public Bouquet getInstance() {
-            Flower flower = new Flower(Color.SINGLECOLOR, Stalk.MIDDLE);
+            Flower flower = new Flower(Color.SINGLE_COLOR, Stalk.MIDDLE);
             Accessory accessory = new Accessory(flower);
 
             return new Bouquet(3,accessory, new Date());
@@ -30,7 +30,7 @@ public enum InstancesStalk {
     },
     SHORT {
         public Bouquet getInstance() {
-            Flower flower = new Flower(Color.SINGLECOLOR, Stalk.SHORT);
+            Flower flower = new Flower(Color.SINGLE_COLOR, Stalk.SHORT);
             Accessory accessory = new Accessory(flower);
 
             return new Bouquet(3,accessory, new Date());
@@ -38,7 +38,7 @@ public enum InstancesStalk {
     },
     ABSENCE {
         public Bouquet getInstance() {
-            Flower flower = new Flower(Color.SINGLECOLOR, Stalk.ABSENCE);
+            Flower flower = new Flower(Color.SINGLE_COLOR, Stalk.ABSENCE);
             Accessory accessory = new Accessory(flower);
 
             return new Bouquet(3,accessory, new Date());

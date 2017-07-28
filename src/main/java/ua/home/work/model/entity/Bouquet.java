@@ -18,7 +18,7 @@ public class Bouquet {
     private Date create;
 
     public Bouquet(){
-        this(1, new Accessory(new Flower(Color.SINGLECOLOR)), new Date());
+        this(1, new Accessory(new Flower(Color.SINGLE_COLOR)), new Date());
     }
 
     public Bouquet(int number, Accessory accessory, Date create){

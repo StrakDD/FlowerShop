@@ -13,7 +13,7 @@ import java.util.Date;
 public enum InstancesMoney {
     CHEAP(3) {
         public Bouquet getInstance() {
-            Flower flower = new Flower(Color.SINGLECOLOR);
+            Flower flower = new Flower(Color.SINGLE_COLOR);
             Accessory accessory = new Accessory(flower);
 
             return new Bouquet(getNumber(),accessory, getDate());
@@ -21,7 +21,7 @@ public enum InstancesMoney {
     },
     BUDGETARY(15) {
         public Bouquet getInstance() {
-            Flower flower = new Flower(Color.SINGLECOLOR);
+            Flower flower = new Flower(Color.SINGLE_COLOR);
             Accessory accessory = new Accessory(flower, true, false, false);
 
             return new Bouquet(getNumber(),accessory, getDate());

@@ -13,7 +13,7 @@ import java.util.Date;
 public enum InstancesEvent {
     SIMPLE {
         public Bouquet getInstance() {
-            Flower flower = new Flower(Color.SINGLECOLOR);
+            Flower flower = new Flower(Color.SINGLE_COLOR);
             Accessory accessory = new Accessory(flower);
 
             return new Bouquet(3,accessory, new Date());
@@ -29,7 +29,7 @@ public enum InstancesEvent {
     },
     FUNERAL {
         public Bouquet getInstance() {
-            Flower flower = new Flower(Color.SINGLECOLOR);
+            Flower flower = new Flower(Color.SINGLE_COLOR);
             Accessory accessory = new Accessory(flower, false, false, true);
 
             return new Bouquet(10,accessory, new Date());

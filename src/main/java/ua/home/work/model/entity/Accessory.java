@@ -22,6 +22,38 @@ public class Accessory {
         this.basket = basket;
     }
 
+    public Flower getFlower() {
+        return flower;
+    }
+
+    public void setFlower(Flower flower) {
+        this.flower = flower;
+    }
+
+    public boolean isWrap() {
+        return wrap;
+    }
+
+    public void setWrap(boolean wrap) {
+        this.wrap = wrap;
+    }
+
+    public boolean isRibbon() {
+        return ribbon;
+    }
+
+    public void setRibbon(boolean ribbon) {
+        this.ribbon = ribbon;
+    }
+
+    public boolean isBasket() {
+        return basket;
+    }
+
+    public void setBasket(boolean basket) {
+        this.basket = basket;
+    }
+
     @Override
     public String toString() {
         return "Accessory{" +
